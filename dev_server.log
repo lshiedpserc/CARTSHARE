@@ -1,0 +1,105 @@
+
+> cartshare@0.0.1 dev
+> vite dev
+
+12:05:11 PM [vite] (client) Forced re-optimization of dependencies
+12:05:13 PM [vite] (ssr) [optimizer] bundling dependencies...
+
+  VITE v8.2.1  ready in 4521 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:104:20 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:124:32 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:150:12 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:162:10 Using `on:submit` to listen to the submit event is deprecated. Use the event attribute `onsubmit` instead
+https://svelte.dev/e/event_directive_deprecated
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:203:20 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:213:16 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:217:16 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:13:8 `items` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:14:8 `newUrl` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:15:8 `isLoading` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:16:8 `isSaving` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:05:52 PM [vite-plugin-svelte] src/routes/+page.svelte:17:8 `shareUrl` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:104:20 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:124:32 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:150:12 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:162:10 Using `on:submit` to listen to the submit event is deprecated. Use the event attribute `onsubmit` instead
+https://svelte.dev/e/event_directive_deprecated
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:203:20 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:213:16 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:217:16 Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead
+https://svelte.dev/e/event_directive_deprecated
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:13:8 `items` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:14:8 `newUrl` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:15:8 `isLoading` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:16:8 `isSaving` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:07:20 PM [vite-plugin-svelte] src/routes/+page.svelte:17:8 `shareUrl` is updated, but is not declared with `$state(...)`. Changing its value will not correctly trigger updates
+https://svelte.dev/e/non_reactive_update
+12:09:45 PM [vite] (client) hmr update /src/routes/+page.svelte, /src/app.css
+12:09:45 PM [vite] (ssr) page reload src/routes/+page.svelte
+12:10:18 PM [vite] Internal server error: src/routes/l/[id]/+page.svelte:6:4 Cannot use `export let` in runes mode — use `$props()` instead
+https://svelte.dev/e/legacy_export_invalid
+  Plugin: vite-plugin-svelte:compile
+  File: src/routes/l/[id]/+page.svelte:6:4
+   4 |      import { page } from '$app/stores';
+   5 |
+   6 |      export let data: PageData;
+                                      ^
+   7 |
+   8 |      let isEditMode = false;
+12:10:18 PM [vite] (client) Pre-transform error: src/routes/l/[id]/+page.svelte:6:4 Cannot use `export let` in runes mode — use `$props()` instead
+https://svelte.dev/e/legacy_export_invalid
+  Plugin: vite-plugin-svelte:compile
+  File: src/routes/l/[id]/+page.svelte:6:4
+   4 |      import { page } from '$app/stores';
+   5 |
+   6 |      export let data: PageData;
+                                      ^
+   7 |
+   8 |      let isEditMode = false;
+12:11:58 PM [vite] (client) hmr update /src/app.css
+12:11:58 PM [vite] (ssr) page reload src/routes/api/scrape/+server.ts
+node:fs:440
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open '/app/cartshare/node_modules/@sveltejs/kit/src/core/config/default-error.html'
+    at Object.readFileSync (node:fs:440:20)
+    at load_error_page (file:///app/cartshare/node_modules/@sveltejs/kit/src/core/config/index.js:121:12)
+    at write_server (file:///app/cartshare/node_modules/@sveltejs/kit/src/core/sync/write_server.js:127:48)
+    at Module.server (file:///app/cartshare/node_modules/@sveltejs/kit/src/core/sync/sync.js:111:2)
+    at FSWatcher.<anonymous> (file:///app/cartshare/node_modules/@sveltejs/kit/src/exports/vite/dev/index.js:394:9)
+    at FSWatcher.emit (node:events:519:28)
+    at file:///app/cartshare/node_modules/vite/dist/node/chunks/node.js:10534:13
+    at Map.forEach (<anonymous>)
+    at Timeout._onTimeout (file:///app/cartshare/node_modules/vite/dist/node/chunks/node.js:10532:28)
+    at listOnTimeout (node:internal/timers:585:17) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/app/cartshare/node_modules/@sveltejs/kit/src/core/config/default-error.html'
+}
+
+Node.js v22.22.1
